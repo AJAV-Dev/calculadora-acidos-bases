@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import Calculator from './components/calculator';
+import FAQ from './components/FAQ';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <h1 className="titulo">Calculadora de Normalidad y Molaridad</h1>
+      <p className="justificado">
+    El objetivo de esta calculadora es proporcionar instrucciones listas para el laboratorio, que describen cómo preparar una solución ácida o base de molaridad (M) o normalidad (N) especificada a partir de una solución ácida o base concentrada.
+    </p>
+      <Calculator />
+      <FAQ />
+      <footer className="footer">
+      Calculadora de molaridad y normalidad realizada por{" "}
+      <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+        Alvaro J. Avendaño
+      </a>.
+    </footer>
+    </>
   );
 }
 
