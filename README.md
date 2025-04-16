@@ -13,8 +13,8 @@ Esta aplicación permite calcular instrucciones de laboratorio para preparar sol
 
 ## 🚀 Demo
 
-Puedes ver la aplicación desplegada aquí: [https://tu-app.vercel.app](https://tu-app.vercel.app)  
-🔗 Repositorio en GitHub: [github.com/tuusuario/tu-repo](https://github.com/tuusuario/tu-repo)
+Puedes ver la aplicación desplegada aquí: [https://calculadora-acidos-bases.vercel.app]  
+🔗 Repositorio en GitHub: [https://github.com/AJAV-Dev/calculadora-acidos-bases.git]
 
 ## 🧰 Tecnologías utilizadas
 
@@ -25,7 +25,7 @@ Puedes ver la aplicación desplegada aquí: [https://tu-app.vercel.app](https://
 ## 📦 Instalación local
 
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone https://github.com/AJAV-Dev/calculadora-acidos-bases.git
+cd calculadora-acidos-bases
 npm install
 npm start
