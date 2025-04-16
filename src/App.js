@@ -14,7 +14,7 @@ function App() {
       <FAQ />
       <footer className="footer">
       Calculadora de molaridad y normalidad realizada por{" "}
-      <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/AJAV-Dev/calculadora-acidos-bases.git" target="_blank" rel="noopener noreferrer">
         Alvaro J. Avendaño
       </a>.
     </footer>
