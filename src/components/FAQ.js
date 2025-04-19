@@ -6,7 +6,7 @@ const FAQ = () => {
         <h2>Preguntas Frecuentes</h2>
         <h3>¿Cómo se calcula la molaridad de una solución porcentual?</h3>
         <p className="justificado">
-            Usando como ejemplo el 70% de ácido nítrico concentrado: el 70% de ácido nítrico significa que 100 gramos de este ácido contienen 70 gramos de HNO3. La concentración se expresa al 70 % en peso/peso o al 70 % en peso de HNO3. Algunos químicos y analistas prefieren trabajar en unidades de concentración ácida de molaridad (moles/litro). Para calcular la molaridad de un ácido nítrico al 70 % en peso, el número de moles de HNO3 presente en 1 litro de ácido debe calcularse. Sabiendo que la densidad del ácido es de 1.413 g/mL, podemos calcular el peso de 1 L de HNO3 al 70% que sea de 1413 gramos. Saber que la solución es del 70 % en peso permitiría entonces el número de gramos de HNO3 a calcular: (0,700)(1413 g) = 989,1 gramos de HNO3 por litro. División de los gramos de HNO3 por      el peso molecular del HNO3 (63,01 g/mol) da el número de moles de HNO3 / L o Molaridad, que es 15,7 M.
+            Usando como ejemplo el 70% de ácido nítrico concentrado: el 70% de ácido nítrico significa que 100 gramos de este ácido contienen 70 gramos de HNO<sub>3</sub>. La concentración se expresa al 70 % en peso/peso o al 70 % en peso de HNO<sub>3</sub>. Algunos químicos y analistas prefieren trabajar en unidades de concentración ácida de molaridad (moles/litro). Para calcular la molaridad de un ácido nítrico al 70 % en peso, el número de moles de HNO3 presente en 1 litro de ácido debe calcularse. Sabiendo que la densidad del ácido es de 1.413 g/mL, podemos calcular el peso de 1 L de HNO<sub>3</sub> al 70% que sea de 1413 gramos. Saber que la solución es del 70 % en peso permitiría entonces el número de gramos de HNO3 a calcular: (0,700)(1413 g) = 989,1 gramos de HNO<sub>3</sub> por litro. División de los gramos de HNO3 por el peso molecular del HNO<sub>3</sub> (63,01 g/mol) da el número de moles de HNO<sub>3</sub> / L o Molaridad, que es 15,7 M.
         </p>
         <h3>¿Cuál es la ecuación utilizada para la conversión de molaridad?</h3>
         <p className="justificado">
@@ -15,7 +15,7 @@ const FAQ = () => {
         <br />
         <p className="centrado"> <strong >[(% × d) / MW] × 10 = Molaridad</strong></p>
         <br />
-        donde: % = % en peso; d = Densidad (o gravedad específica); MW = peso molecular (o peso de la fórmula).
+        Donde: % = % en peso; d = Densidad (o gravedad específica); MW = peso molecular (o peso de la fórmula).
         <br />
         <br />
         La ecuación anterior se puede utilizar para calcular la molaridad del 70 % en peso de ácido nítrico:
